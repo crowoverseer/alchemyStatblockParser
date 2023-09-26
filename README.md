@@ -1,5 +1,4 @@
-# alchemyStatblockParser
-Alchemy stat block parser
+# Alchemy stat block parser
 
 Usage: node converter.js Source.txt > NPC.json
 
