@@ -14,6 +14,7 @@ Features:
 
 Possible abiliies formats:
 
+```
 STR
 10 (+0)
 DEX
@@ -26,7 +27,9 @@ WIS
 10 (+0)
 CHA
 10 (+0)
+```
 
+```
 STR DEX CON
 10 (+0) 10 (+0) 10 (+0)
 INT
@@ -35,6 +38,9 @@ WIS
 10 (+0)
 CHA
 10 (+0)
+```
 
+```
 STR DEX CON INT WIS CHA
 10 (+0) 10 (+0) 10 (+0) 10 (+0) 10 (+0) 10 (+0)
+```
