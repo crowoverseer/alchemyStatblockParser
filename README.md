@@ -11,6 +11,7 @@ Features:
 - Calculates skills
 - Parsing reactions
 - Parsing descriptions (with about or description separator)
+- NOT parsing lair actions (yet)
 
 Possible abiliies formats:
 
