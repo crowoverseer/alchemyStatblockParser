@@ -93,7 +93,18 @@ const getAbilityBonus = ability =>
 /// ============ PARSERS ===============
 
 const prepareSource = () => {
-  source = source.filter(line => line.length)
+  let descriptionPassed = false;
+  descriptionRegexp = /^(Description|About)/i;
+
+  source = source.filter(line => {
+    if( !descriptionPassed && descriptionRegexp.test( line ) ) {
+      descriptionPassed = true;
+    }
+    if( descriptionPassed ) {
+      return true
+    }
+    return line.length
+  })
 }
 
 const parseName = () => {
@@ -861,6 +872,9 @@ try {
       )
     }
     source = source.replace( ABILITY_REGEX, ABILITY_REGEX.exec(source)[0].split('\n').join(' ' ) )
+
+    // fix description space
+    source = source.replace( /Description\n\n/i, "Description\n")
   } catch(err) {
     console.error( "Error while parsing ability scores\n\n", err )
     return -1
