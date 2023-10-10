@@ -187,7 +187,11 @@ const parseSpeed = () => {
   let gotWalk = false,
       defaultSpeed = ""
   speeds.forEach( (speedStr, idx) => {
-    const [mode, speed] = speedStr.split(" ")
+    let [mode, speed] = speedStr.split(" ")
+    if( !speed ) {
+      speed = mode
+      mode = "Walk"
+    }
     movementModes.push({
       mode,
       distance: Number( speed )
