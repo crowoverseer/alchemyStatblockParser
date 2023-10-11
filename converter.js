@@ -160,6 +160,7 @@ const parseHPAndXP = () => {
   npc.hitDice = hitDice
   npc.trackers = [
     {
+      "category": "experience",
       "color": "Yellow",
       "max": Number( xp ),
       "name": "XP",
@@ -167,6 +168,7 @@ const parseHPAndXP = () => {
       "value": Number( xp )
     },
     {
+      "category": "health",
       "color": "Green",
       "max": Number( hp ),
       "name": "HP",
