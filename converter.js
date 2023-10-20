@@ -9,6 +9,7 @@ const ABILITY_REGEX = /STR[\s]*(?<str>\d+)[\s()\+\-\d]*?DEX[\s]*(?<dex>\d+)[\s()
 const RETURN = '[r]'
 
 let spaceDescr = false;
+let publicDescr = false;
 let source = []
 
 const npc = {
@@ -22,14 +23,20 @@ const npc = {
 if( process.argv.length < 3 ) {
   console.log("USAGE: node converter [options?] [soucefile] > result.json")
   console.log("  spaceDescr - use space as description separator")
+  console.log("  p - public description")
   return;
 }
 let sourcefile = process.argv[process.argv.length - 1]
-for( arg in process.argv) {
-  if( arg === 'spaceDescr' ) {
-    spaceDescr = true;
+process.argv.forEach( arg => {
+  switch( arg ) {
+    case 'spaceDescr':
+      spaceDescr = true;
+      break;
+    case 'p':
+      publicDescr = true;
+      break;
   }
-}
+})
 
 const findAndShift = (pattern, group) => {
   let found = ""
@@ -423,14 +430,19 @@ const parseDescription = () => {
   if( spaceDescr ) {
     descriptionSeparatorPos = source.indexOf('')
   } else {
-    descriptionSeparatorPos = findLineNumber(/^(Description|About)/i, true) - 1;
+    descriptionSeparatorPos = findLineNumber(/^(Description|About)/i, true);
   }
   if( descriptionSeparatorPos < 0 ) {
     return;
   }
-  const description = source.slice(descriptionSeparatorPos + 1).join('\n')
+
+  const description = source.slice(descriptionSeparatorPos).join('\n')
   source.splice(descriptionSeparatorPos)
   npc.description = description
+
+  if( publicDescr ) {
+    npc.isBackstoryPublic = true;
+  }
 }
 
 const parseResistances = () => {
