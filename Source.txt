@@ -1,59 +1,48 @@
-Aboleth
-Large Aberration, Lawful Evil
-
-Armor Class 17 (natural armor)
-Hit Points 135 (18d10 + 36)
-Speed 10 ft., swim 40 ft.
-
-STR
-21 (+5)
-DEX
-9 (-1)
+Shifting Hulk 2
+Large aberration, any alignment
+Armor Class 16 (natural armor)
+Hit Points 168 (16d10 + 80)
+Speed 30 ft.
+STR DEX
+20 (+5) 10 (+0)
 CON
-15 (+2)
+20 (+5)
 INT
-18 (+4)
+9 (–1)
 WIS
-15 (+2)
+11 (+0)
 CHA
-18 (+4)
+6 (−2)
 
-Saving Throws CON +6, INT +8, WIS +6
-Skills History +12, Perception +10
-Senses Darkvision 120 ft., Passive Perception 20
-Languages Deep Speech, Telepathy 120 ft.
-Challenge 10 (5,900 XP)
+Skills Perception +4
+Senses darkvision 60 ft., passive Perception 14
+Languages understands one language but can’t speak
+Challenge 9 (5,000 XP)
 Proficiency Bonus +4
-
-Amphibious. The aboleth can breathe air and water.
-
-Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.
-
-Probing Telepathy. If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
-
-Actions
-Multiattack. The aboleth makes three tentacle attacks.
-
-Tentacle. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
-
-Tail. Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.
-
-Enslave (3/Day). The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.
-
-Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
-
-Legendary Actions
-The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.
-
-Detect. The aboleth makes a Wisdom (Perception) check.
-
-Tail Swipe. The aboleth makes one tail attack.
-
-Psychic Drain (Costs 2 Actions). One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.
-
+Aberrant Wound. If a creature other than an undead or a construct takes damage from the shifting hulk’s attacks, the creature must succeed on a DC 17 Constitution saving throw or lose 5 (2d4) hit points at the start of each of its turns due to an aberrant wound. This damage is cumulative. A creature can take an action to staunch the wound, ending this effect with a successful DC 15 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
+Vicious Critical. When the shifting hulk scores a critical hit with an attack, it can roll the attack’s damage dice three times instead of twice.
+Fast Healing. While at half its hit points or fewer, the shifting hulk regains 10 hit points at the start of each of its turns. This trait doesn’t function while the hulk has 0 hit points.
+Shapechanger. The shifting hulk can use an action or a bonus action to polymorph into a form that resembles its Small or Medium humanoid appearance before it became a horror. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true Large form if it dies.
+aCtiOns
+Multiattack. The shifting hulk makes two attacks and uses frightening attacks.
+Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage and Aberrant Wound.
+Spine. Ranged Weapon Attack: +9 to hit, range 30/60 ft., one target. Hit: 18 (3d8 + 5) piercing damage and Aberrant Wound.
+Frightening Attacks. Each creature of the shifting hulk’s choice within 30 feet of the hulk and aware of it must succeed on a DC 12 Wisdom saving throw or be- come frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hulk’s frightening attacks for the next 24 hours or until it scores a critical hit, whichever comes first.
 Description
-Aboleths lair in subterranean lakes or the rocky depths of the ocean, often surrounded by the ruins of an ancient, fallen aboleth city. An aboleth spends most of its existence underwater, surfacing occasionally to treat with visitors or worshipers.
+*“Children sing nursery rhymes about suspicious strangers for a reason. Heed the tales and check them for tentacles before offering shelter.”*
 
-Before the coming of the gods, aboleths lurked in primordial oceans and underground lakes. They reached out with their minds and seized control of the burgeoning life-forms of the mortal realm. Their dominance made them like gods. Then the true gods appeared, smashing the aboleths’ empire.
+***Abominable Experiment.*** In desperate times science and magic can progress by leaps and bounds, but such rapid advancement has its risks. Without proper precautions, experimenters or their subjects might be caught in forces beyond imagining and become twisted into something abominable. No two mishaps are alike, yet each of the misbegotten results is known as an aberrant horror.
 
-Aboleths have never forgotten.
+***Warped Flesh.*** Those who survive the uncontrolled transformation into aberrant horrors become living weapons. Some theories say the body sees the transmuting force as a threat and evolves defenses against it. Others believe that the accident triggers dormant bestial adaptations from the distant past. Whatever the reason, aberrant horrors are vicious combatants, armed with hardened claws, venomous spines, and other strange adaptations.
+
+### Salvage
+Aberrant horrors have been saturated in eldritch energies. Each horror’s body can provide a number of material components for arcane necromancy or transmutation spells equal to half the horror’s challenge challenge rating. Each component is consumed when used to cast, but the spell is cast as if the caster used a spell slot one level higher, up to a maximum of a 5th-level slot.
+
+### Lore
+**DC 10 Intelligence (History):** Aberrant horrors are the results of failed arcane experiments that twist the body into unnatural forms.
+**DC 15 Intelligence (Arcana):** Each aberrant horror is different. Some grow extra limbs, others dissolve into oozelike creatures, and others swell to massive proportions. They contain eldritch energy that can fuel necromancy and transmutation.
+
+
+``` Title: GM Advice
+The arcane origins of aberrant horrors give you a great deal of room to challenge your players with unusual traits. For example, one horror might only take damage when it’s under the effects of a bane or bless spell, but ferreting out this information requires the characters to face it once and succeed on a DC 10 Intelligence (Arcana) check. The secret to pulling this off is to make the odd traits easy to learn and possible to accomplish without overly taxing the characters.
+```

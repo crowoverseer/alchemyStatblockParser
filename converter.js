@@ -6,7 +6,7 @@
 const spellDb = require("./spells");
 
 const ABILITY_REGEX =
-  /STR[\s]*(?<str>\d+)[\s()\+\-\d]*?DEX[\s]*(?<dex>\d+)[\s()\+\-\d]*?CON[\s]*(?<con>\d+)[\s()\+\-\d]*?INT[\s]*(?<int>\d+)[\s()\+\-\d]*?WIS[\s]*(?<wis>\d+)[\s()\+\-\d]*?CHA[\s]*(?<cha>\d+)/gi;
+  /STR[\s]*(?<str>\d+)[\s()\+\-\d]*?DEX[\s]*(?<dex>\d+)[\s()\+\-\d]*?CON[\s]*(?<con>\d+)[\s()\+\-\d]*?INT[\s]*(?<int>\d+)[\s()\+\-\d–]*?WIS[\s]*(?<wis>\d+)[\s()\+\-\d]*?CHA[\s]*(?<cha>\d+)/gi;
 const RETURN = "[r]";
 
 let publicDescr = false;
@@ -181,9 +181,13 @@ const parseHPAndXP = () => {
 };
 
 const parseSpeed = () => {
+  //Speed 30 ft., climb 30ft.
   const speedline = findAndShift(/Speed\s?(?<speeds>.*)$/i, "speeds");
-  const speeds = speedline.split("ft.").map((speed) => speed.trim());
-  speeds.pop();
+  const speeds = speedline
+    .split(/\s?ft\.,?\s?/)
+    .map((speed) => speed.trim())
+    .filter(Boolean);
+
   const movementModes = [];
   let gotWalk = false,
     defaultSpeed = "";
@@ -194,7 +198,7 @@ const parseSpeed = () => {
       mode = "Walking";
     }
     movementModes.push({
-      mode,
+      mode: capitalize(mode),
       distance: Number(speed),
     });
     if (
@@ -458,7 +462,7 @@ const parseResistances = () => {
     resistances.split(",").forEach((resistance) => {
       damageResistancesResult.push({
         condition: condition.trim(),
-        damageType: resistance.trim().replace(/\s?and\s?/, ""),
+        damageType: capitalize(resistance.trim().replace(/\s?and\s?/, "")),
       });
     });
   });
@@ -478,7 +482,7 @@ const parseImmunities = () => {
     immunities.split(",").forEach((immunity) => {
       damageImmunitiesResult.push({
         condition: condition.trim(),
-        damageType: immunity.trim().replace(/\s?and\s?/, ""),
+        damageType: capitalize(immunity.trim().replace(/\s?and\s?/, "")),
       });
     });
   });
@@ -759,7 +763,7 @@ const parseActions = () => {
       description = description.replaceAll(RETURN, "\n");
 
       if (name && description) {
-        let rollsAttack = true;
+        let rollsAttack = false;
         let damageRolls = [];
         let savingThrow = {};
         let attack = {
@@ -775,6 +779,7 @@ const parseActions = () => {
             abilityName: abilitySaveFull.substring(0, 3).toUpperCase(),
             difficultyClass: Number(dc),
           };
+          rollsAttack = false;
         }
 
         // parse attack
@@ -839,6 +844,15 @@ const parseActions = () => {
               rollsAttack,
             };
           }
+        } else if (savingThrow) {
+          attack = {
+            ...attack,
+            actionType: "Action",
+            isProficient: true,
+            name,
+            savingThrow,
+            rollsAttack,
+          };
         }
 
         return {
@@ -850,7 +864,8 @@ const parseActions = () => {
               attack: attack,
               journalCommand: {},
               skillCheck: {},
-              type: damageRolls.length ? "custom-attack" : "message",
+              type:
+                damageRolls.length || savingThrow ? "custom-attack" : "message",
               ...(damageRolls.length
                 ? {}
                 : {
@@ -918,10 +933,36 @@ try {
       /STR\s*DEX\s*CON\s*?\n(?<str>\d+)\s*\(.*?\)\s*(?<dex>\d+)\s*\(.*?\)\s*(?<con>\d+)\s*/gi;
     let brokenAbilityResult = brokenAbilityRegexp.exec(source);
     if (brokenAbilityResult && brokenAbilityResult.groups) {
+      console.error("Found broken scores. Fixing");
       const { str, dex, con } = brokenAbilityResult.groups;
       source = source.replaceAll(
         brokenAbilityRegexp,
         `STR\n${str} (+0)\nDEX\n${dex} (+0)\nCON\n${con} `
+      );
+      // check second half
+      const brokenAbilityRegexpHalf2 =
+        /INT\nWIS\n*CHA\n*?\n(?<int>\d+)\s*\(.*?\)\n*(?<wis>\d+)\s*\(.*?\)\n*(?<cha>\d+)\s*/gi;
+      brokenAbilityResult = brokenAbilityRegexpHalf2.exec(source);
+      if (brokenAbilityResult && brokenAbilityResult.groups) {
+        console.error("Second half broken differently. Fixing");
+        const { int, wis, cha } = brokenAbilityResult.groups;
+        source = source.replaceAll(
+          brokenAbilityRegexpHalf2,
+          `INT\n${int} (+0)\WIS\n${wis} (+0)\CHA\n${cha} `
+        );
+      }
+    }
+    // STR DEX
+    // 20 (+5) 10 (+0)
+    const brokenAbilityRegexpShort =
+      /STR\s*DEX\s*?\n(?<str>\d+)\s*\(.*?\)\s*(?<dex>\d+)\s*\(.*?\)\s*/gi;
+    brokenAbilityResult = brokenAbilityRegexpShort.exec(source);
+    if (brokenAbilityResult && brokenAbilityResult.groups) {
+      console.error("Found broken scores (short). Fixing");
+      const { str, dex } = brokenAbilityResult.groups;
+      source = source.replaceAll(
+        brokenAbilityRegexpShort,
+        `STR\n${str} (+0)\nDEX\n${dex} (+0)\n`
       );
     }
     // STR DEX CON INT WIS CHA
