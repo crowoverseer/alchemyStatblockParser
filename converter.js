@@ -489,6 +489,26 @@ const parseImmunities = () => {
   npc.damageImmunities = damageImmunitiesResult;
 };
 
+const parseVulnerabilities = () => {
+  //Damage Vulnerabilities Cold, Fire; Bludgeoning from nonmagial attacks
+  const vulnerabilityLine = findAndShift(
+    /^Damage\sVulnerabilities\s?(?<vulnerabilities>.*?)$/i,
+    "vulnerabilities"
+  );
+  if (!vulnerabilityLine) return;
+  let damageVulnerabilitiesResult = [];
+  vulnerabilityLine.split(";").forEach((vulBlock) => {
+    const [vulnerabilities, condition = ""] = vulBlock.split("from");
+    vulnerabilities.split(",").forEach((vulnerability) => {
+      damageVulnerabilitiesResult.push({
+        condition: condition.trim(),
+        damageType: capitalize(vulnerability.trim().replace(/\s?and\s?/, "")),
+      });
+    });
+  });
+  npc.damageVulnerabilities = damageVulnerabilitiesResult;
+};
+
 let knownSpells = [];
 let spellSlots = [];
 let knownSlots = [];
@@ -788,6 +808,7 @@ const parseActions = () => {
           rollsAttack = true;
           let { rangeType, bonus, range } = attackRegexResult.groups;
           bonus = Number(bonus || 0);
+          let additionalBonus = 0;
 
           // checking ability
           const strBaseAttack =
@@ -801,11 +822,24 @@ const parseActions = () => {
           if (
             bonus === dexBaseAttack &&
             !(strBaseAttack === dexBaseAttack && isRanged === false)
-          )
+          ) {
             ability = "dex";
+          }
+          if (bonus !== strBaseAttack && bonus !== dexBaseAttack) {
+            console.error("Attack exceeds formula. Adding bonus");
+            if (strBaseAttack > dexBaseAttack) {
+              ability = "str";
+            }
+            if (ability === "str" && strBaseAttack < bonus) {
+              additionalBonus = bonus - strBaseAttack;
+            } else if (ability === "dex" && dexBaseAttack < bonus) {
+              additionalBonus = bonus - dexBaseAttack;
+            }
+          }
 
           attack = {
             ability,
+            ...(additionalBonus ? { bonus: additionalBonus } : {}),
             actionType: "Action",
             crit: 20,
             ...(damageRolls.length ? { damageRolls } : {}),
@@ -1011,6 +1045,7 @@ parseLanguages(); // should be after parseAbilityScores parsing
 parseConditionImmunities();
 parseResistances();
 parseImmunities();
+parseVulnerabilities();
 parseSpells();
 parseDescription();
 parseReactions();

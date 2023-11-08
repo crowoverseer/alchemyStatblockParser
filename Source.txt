@@ -1,32 +1,25 @@
-Anguisher
-Medium aberration, chaotic evil
-Armor Class 13 (natural armor)
-Hit Points 65 (10d8 + 20)
-Speed 30 ft.
-STR
-8 (–1)
-DEX
-14 (+2)
-CON
-15 (+2)
+Apparmaole2
+Medium construct, unaligned
+Armor Class 12
+Hit Points 14 (4d6)
+Speed 0 ft., fly 40 ft. (hover)
+STR DEX CON
+14 (+2) 15 (+2) 10 (+0)
 INT
-8 (–1)
+8 (-1)
 WIS
-10 (+0)
+4 (-3)
 CHA
-17 (+3)
-Skills Insight +2, Perception +2, Stealth +4
-Damage Resistances psychic; bludgeoning, piercing, and slashing from nonmagical attacks
-Condition Immunities exhaustion, frightened, grappled, paralyzed, petrified, prone, restrained, unconscious
-Senses darkvision 60 ft., passive Perception 12
-Languages understands all languages but can’t speak, telepathy 60 ft.
-Challenge 4 (1,100 XP)
-Proficiency Bonus +2
-Amorphous. The anguisher can move through a space as narrow as 1 inch wide without squeezing.
-Continued Suffering. A creature that has an Intelligence score of 4 or higher and dies from an anguisher’s attacks spawns a new anguisher in 3 days. Any effect that prevents the body from becoming undead also prevents the emergence of the new anguisher.
-Frightening Advantage. The anguisher has advantage on attack rolls against creatures that are frightened. Against such targets, the anguisher scores a critical hit on a roll of 18 to 20.
+2 (-4)
+Damage Vulnerabilities fire
+Damage Immunities poison, psychic
+Condition Immunities blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+Senses blindsight 60 ft. (blind beyond this radius), Passive Perception 7
+Languages –
+Challenge 1/2 (100 XP) Proficiency Bonus +2
+Antimagic Susceptibility. The apparmarole is inca- pacitated while in the area of antimagic field. If targeted by dispel magic, the apparmarole must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
+Damage Transfer. While grappling a creature, the apparmarole is resistant to all damage and the creature grappled by the apparmarole takes damage equal to that taken by the apparmarole.
+False Appearance. While the apparmarole remains motionless, it is indistinguishable from normal clothing.
 aCtiOns
-Multiattack. The anguisher uses anguish twice.
-Anguish. Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 13 (3d6 + 3) psychic damage, and the target is frightened of the anguisher and must use its reaction to move its speed away by the safest possible route. Movement used during this reaction can’t be used during the target’s turn.
-Harrow (Recharge 6). Each creature of the anguisher’s choice within 60 feet and aware of the anguisher must make a DC 13 Wisdom saving throw. On a failure, a creature takes 17 (5d6) psychic damage and becomes frightened for 1 minute. If the save succeeds, the creature takes half the damage and isn’t frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.
-Invisibility. The anguisher magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell).
+Constrict. Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 12). Until this grapple ends, the target is restrained, blinded, and the apparmarole can’t constrict another target. In addition, at the start of the target’s turns, the target takes 4 (1d4 + 2) bludgeoning damage if the target is not charmed.
+Puppeteer. A creature grappled by the apparmarole must succeed on a DC 13 Wisdom saving throw or be charmed for 8 hours. While charmed, a telepathic link with the apparmarole is established. The apparmarole can issue commands without an action, which the creature does its best to obey.[r]Each time the target takes damage, it makes a new Wisdom saving throw, ending the effect on a success.
