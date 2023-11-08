@@ -1,48 +1,35 @@
-Shifting Hulk 2
-Large aberration, any alignment
-Armor Class 16 (natural armor)
-Hit Points 168 (16d10 + 80)
-Speed 30 ft.
-STR DEX
-20 (+5) 10 (+0)
-CON
-20 (+5)
+Angel of Empyreus
+Large celestial, lawful neutral
+Armor Class 21 (natural armor)
+Hit Points 445 (33d10+264)
+Speed 40 ft., fly 90 ft.
+STR DEX CON
+29 (+9) 23 (+6) 26 (+8)
 INT
-9 (–1)
+25 (+7)
 WIS
-11 (+0)
+18 (+4)
 CHA
-6 (−2)
-
-Skills Perception +4
-Senses darkvision 60 ft., passive Perception 14
-Languages understands one language but can’t speak
-Challenge 9 (5,000 XP)
-Proficiency Bonus +4
-Aberrant Wound. If a creature other than an undead or a construct takes damage from the shifting hulk’s attacks, the creature must succeed on a DC 17 Constitution saving throw or lose 5 (2d4) hit points at the start of each of its turns due to an aberrant wound. This damage is cumulative. A creature can take an action to staunch the wound, ending this effect with a successful DC 15 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
-Vicious Critical. When the shifting hulk scores a critical hit with an attack, it can roll the attack’s damage dice three times instead of twice.
-Fast Healing. While at half its hit points or fewer, the shifting hulk regains 10 hit points at the start of each of its turns. This trait doesn’t function while the hulk has 0 hit points.
-Shapechanger. The shifting hulk can use an action or a bonus action to polymorph into a form that resembles its Small or Medium humanoid appearance before it became a horror. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true Large form if it dies.
+30 (+10)
+Saving Throws Str +16, Int +14, Wis +11, Cha +17
+Skills Arcana +14, Insight +11, Intimidation +17, Investigation +14, Perception +11, Religion +14
+Damage Resistances fire, lightning, radiant; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities cold, necrotic, poison
+Condition Immunities blinded, charmed, deafened, exhaustion, frightened, poisoned
+Senses truesight 120 ft., passive Perception 21
+Languages all, telepathy 120 ft.
+Challenge 22 (41,000 XP)
+Proficiency Bonus +7
+Celestial Arsenal. The Angel of Empyreus’ weapon attacks are magical. When it hits with any weapon, the weapon deals an extra 27 (6d8) radiant damage (included in the attack).
+Authoritative Mien. The Angel of Empyreus can cast the command spell at will (spell save DC 25).
+Divine Awareness. The Angel of Empyreus knows if it hears a lie.
+Holy Aura. The Angel of Empyreus can project a 60-ft. aura of holiness as a bonus action. The aura affects all creatures within its area unless the Angel of Empyreus chooses to exclude a creature from the effect. A creature remains under the aura’s effect until it leaves the area, dies, or when the Angel of Empyrean chooses a new aura effect. Only one effect may be active at a time:[r]• Judgement. Creatures who start their turn in the aura must succeed on a DC 25 Charisma saving throw. On a failure, the creature gains a level of exhaustion as intensified feelings of guilt, doubt, remorse, and self-criticism overwhelm the affected creature. Creatures who succeed on the saving throw are immune to the effect for one hour.[r]• Valor. Creatures who start their turn in the aura gain 15 temporary hit points, cannot be charmed or frightened, and have advantage on saving throws against spells and other magical effects
 aCtiOns
-Multiattack. The shifting hulk makes two attacks and uses frightening attacks.
-Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage and Aberrant Wound.
-Spine. Ranged Weapon Attack: +9 to hit, range 30/60 ft., one target. Hit: 18 (3d8 + 5) piercing damage and Aberrant Wound.
-Frightening Attacks. Each creature of the shifting hulk’s choice within 30 feet of the hulk and aware of it must succeed on a DC 12 Wisdom saving throw or be- come frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hulk’s frightening attacks for the next 24 hours or until it scores a critical hit, whichever comes first.
-Description
-*“Children sing nursery rhymes about suspicious strangers for a reason. Heed the tales and check them for tentacles before offering shelter.”*
-
-***Abominable Experiment.*** In desperate times science and magic can progress by leaps and bounds, but such rapid advancement has its risks. Without proper precautions, experimenters or their subjects might be caught in forces beyond imagining and become twisted into something abominable. No two mishaps are alike, yet each of the misbegotten results is known as an aberrant horror.
-
-***Warped Flesh.*** Those who survive the uncontrolled transformation into aberrant horrors become living weapons. Some theories say the body sees the transmuting force as a threat and evolves defenses against it. Others believe that the accident triggers dormant bestial adaptations from the distant past. Whatever the reason, aberrant horrors are vicious combatants, armed with hardened claws, venomous spines, and other strange adaptations.
-
-### Salvage
-Aberrant horrors have been saturated in eldritch energies. Each horror’s body can provide a number of material components for arcane necromancy or transmutation spells equal to half the horror’s challenge challenge rating. Each component is consumed when used to cast, but the spell is cast as if the caster used a spell slot one level higher, up to a maximum of a 5th-level slot.
-
-### Lore
-**DC 10 Intelligence (History):** Aberrant horrors are the results of failed arcane experiments that twist the body into unnatural forms.
-**DC 15 Intelligence (Arcana):** Each aberrant horror is different. Some grow extra limbs, others dissolve into oozelike creatures, and others swell to massive proportions. They contain eldritch energy that can fuel necromancy and transmutation.
-
-
-``` Title: GM Advice
-The arcane origins of aberrant horrors give you a great deal of room to challenge your players with unusual traits. For example, one horror might only take damage when it’s under the effects of a bane or bless spell, but ferreting out this information requires the characters to face it once and succeed on a DC 10 Intelligence (Arcana) check. The secret to pulling this off is to make the odd traits easy to learn and possible to accomplish without overly taxing the characters.
-```
+Multiattack. The Angel of Empyreus can make three attacks with its holy avenger.
+Holy Avenger. Melee Weapon Attack: +24 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) slashing damage plus 27 (6d8) radiant damage. If the target is a fiend or undead, it takes an additional 22 (4d10) radiant damage.
+Blazing Radiance (Recharge 5-6). The Angel of Empyreus unleashes holy fire in a 60-foot cone. Each creature in that area must succeed on a DC 25 Dexterity saving throw or take 35 (10d6) fire and 35 (10d6) radiant damage. Creatures take half damage on a success.
+Legendary aCtiOns
+The Angel of Empyreus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Angel of Empyreus regains spent legendary actions at the start of its turn.
+Fly. The Angel of Empyreus flies up to half its fly speed. Sword. The Angel of Empyreus makes a holy avenger attack.
+Hurl Sword (2 actions). The Angel of Empyreus hurls its sword in a 30-foot line that is 5-feet wide. Each creature in that line must succeed on a DC 24 Dexterity saving throw or take 23 (4d6 + 9) slashing damage plus 27 (6d8) radiant damage. The sword immediately returns to its hand.
+Recharge. The Angel of Empyreus recharges its Blazing Radiance.

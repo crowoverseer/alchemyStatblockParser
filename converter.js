@@ -708,7 +708,7 @@ const parseReactions = () => {
 };
 
 const parseLedendaryActions = () => {
-  const legendaryActionsPos = findLineNumber(/^Legendary\sActions/, true);
+  const legendaryActionsPos = findLineNumber(/^Legendary\sActions/i, true);
   if (legendaryActionsPos < 1) {
     return;
   }
@@ -805,7 +805,7 @@ const parseActions = () => {
 
           attack = {
             ability,
-            actionType: "action",
+            actionType: "Action",
             crit: 20,
             ...(damageRolls.length ? { damageRolls } : {}),
             isProficient: true,
@@ -827,7 +827,7 @@ const parseActions = () => {
           const { dice, bonus = 0, type } = damageRegexResult.groups ?? {};
           damageRolls.push({
             dice,
-            type,
+            type: capitalize(type),
             bonus: Number(bonus),
           });
         }
