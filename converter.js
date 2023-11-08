@@ -6,7 +6,7 @@
 const spellDb = require("./spells");
 
 const ABILITY_REGEX =
-  /STR[\s]*(?<str>\d+)[\s()\+\-\d]*?DEX[\s]*(?<dex>\d+)[\s()\+\-\d]*?CON[\s]*(?<con>\d+)[\s()\+\-\d]*?INT[\s]*(?<int>\d+)[\s()\+\-\d–]*?WIS[\s]*(?<wis>\d+)[\s()\+\-\d]*?CHA[\s]*(?<cha>\d+)/gi;
+  /STR[\s]*(?<str>\d+)[\s()\+\-\d–]*?DEX[\s]*(?<dex>\d+)[\s()\+\-\d–]*?CON[\s]*(?<con>\d+)[\s()\+\-\d–]*?INT[\s]*(?<int>\d+)[\s()\+\-\d–]*?WIS[\s]*(?<wis>\d+)[\s()\+\-\d–]*?CHA[\s]*(?<cha>\d+)/gi;
 const RETURN = "[r]";
 
 let publicDescr = false;

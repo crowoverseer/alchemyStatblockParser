@@ -1,35 +1,32 @@
-Angel of Empyreus
-Large celestial, lawful neutral
-Armor Class 21 (natural armor)
-Hit Points 445 (33d10+264)
-Speed 40 ft., fly 90 ft.
-STR DEX CON
-29 (+9) 23 (+6) 26 (+8)
+Anguisher
+Medium aberration, chaotic evil
+Armor Class 13 (natural armor)
+Hit Points 65 (10d8 + 20)
+Speed 30 ft.
+STR
+8 (–1)
+DEX
+14 (+2)
+CON
+15 (+2)
 INT
-25 (+7)
+8 (–1)
 WIS
-18 (+4)
+10 (+0)
 CHA
-30 (+10)
-Saving Throws Str +16, Int +14, Wis +11, Cha +17
-Skills Arcana +14, Insight +11, Intimidation +17, Investigation +14, Perception +11, Religion +14
-Damage Resistances fire, lightning, radiant; bludgeoning, piercing, and slashing from nonmagical weapons
-Damage Immunities cold, necrotic, poison
-Condition Immunities blinded, charmed, deafened, exhaustion, frightened, poisoned
-Senses truesight 120 ft., passive Perception 21
-Languages all, telepathy 120 ft.
-Challenge 22 (41,000 XP)
-Proficiency Bonus +7
-Celestial Arsenal. The Angel of Empyreus’ weapon attacks are magical. When it hits with any weapon, the weapon deals an extra 27 (6d8) radiant damage (included in the attack).
-Authoritative Mien. The Angel of Empyreus can cast the command spell at will (spell save DC 25).
-Divine Awareness. The Angel of Empyreus knows if it hears a lie.
-Holy Aura. The Angel of Empyreus can project a 60-ft. aura of holiness as a bonus action. The aura affects all creatures within its area unless the Angel of Empyreus chooses to exclude a creature from the effect. A creature remains under the aura’s effect until it leaves the area, dies, or when the Angel of Empyrean chooses a new aura effect. Only one effect may be active at a time:[r]• Judgement. Creatures who start their turn in the aura must succeed on a DC 25 Charisma saving throw. On a failure, the creature gains a level of exhaustion as intensified feelings of guilt, doubt, remorse, and self-criticism overwhelm the affected creature. Creatures who succeed on the saving throw are immune to the effect for one hour.[r]• Valor. Creatures who start their turn in the aura gain 15 temporary hit points, cannot be charmed or frightened, and have advantage on saving throws against spells and other magical effects
+17 (+3)
+Skills Insight +2, Perception +2, Stealth +4
+Damage Resistances psychic; bludgeoning, piercing, and slashing from nonmagical attacks
+Condition Immunities exhaustion, frightened, grappled, paralyzed, petrified, prone, restrained, unconscious
+Senses darkvision 60 ft., passive Perception 12
+Languages understands all languages but can’t speak, telepathy 60 ft.
+Challenge 4 (1,100 XP)
+Proficiency Bonus +2
+Amorphous. The anguisher can move through a space as narrow as 1 inch wide without squeezing.
+Continued Suffering. A creature that has an Intelligence score of 4 or higher and dies from an anguisher’s attacks spawns a new anguisher in 3 days. Any effect that prevents the body from becoming undead also prevents the emergence of the new anguisher.
+Frightening Advantage. The anguisher has advantage on attack rolls against creatures that are frightened. Against such targets, the anguisher scores a critical hit on a roll of 18 to 20.
 aCtiOns
-Multiattack. The Angel of Empyreus can make three attacks with its holy avenger.
-Holy Avenger. Melee Weapon Attack: +24 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) slashing damage plus 27 (6d8) radiant damage. If the target is a fiend or undead, it takes an additional 22 (4d10) radiant damage.
-Blazing Radiance (Recharge 5-6). The Angel of Empyreus unleashes holy fire in a 60-foot cone. Each creature in that area must succeed on a DC 25 Dexterity saving throw or take 35 (10d6) fire and 35 (10d6) radiant damage. Creatures take half damage on a success.
-Legendary aCtiOns
-The Angel of Empyreus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Angel of Empyreus regains spent legendary actions at the start of its turn.
-Fly. The Angel of Empyreus flies up to half its fly speed. Sword. The Angel of Empyreus makes a holy avenger attack.
-Hurl Sword (2 actions). The Angel of Empyreus hurls its sword in a 30-foot line that is 5-feet wide. Each creature in that line must succeed on a DC 24 Dexterity saving throw or take 23 (4d6 + 9) slashing damage plus 27 (6d8) radiant damage. The sword immediately returns to its hand.
-Recharge. The Angel of Empyreus recharges its Blazing Radiance.
+Multiattack. The anguisher uses anguish twice.
+Anguish. Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 13 (3d6 + 3) psychic damage, and the target is frightened of the anguisher and must use its reaction to move its speed away by the safest possible route. Movement used during this reaction can’t be used during the target’s turn.
+Harrow (Recharge 6). Each creature of the anguisher’s choice within 60 feet and aware of the anguisher must make a DC 13 Wisdom saving throw. On a failure, a creature takes 17 (5d6) psychic damage and becomes frightened for 1 minute. If the save succeeds, the creature takes half the damage and isn’t frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.
+Invisibility. The anguisher magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell).
