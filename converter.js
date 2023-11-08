@@ -785,6 +785,7 @@ const parseActions = () => {
         // parse attack
         const attackRegexResult = attackRegex.exec(description);
         if (attackRegexResult) {
+          rollsAttack = true;
           let { rangeType, bonus, range } = attackRegexResult.groups;
           bonus = Number(bonus || 0);
 
