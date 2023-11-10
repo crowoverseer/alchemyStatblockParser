@@ -562,7 +562,11 @@ const fillNPCSpells = () => {
     let found = false;
     for (let i = 0; i < spellDb.length; i++) {
       const rgx = new RegExp(
-        spellName.replace(/\(.*?\)/gi, "").replace(" ", "\\s"),
+        spellName
+          .replace(/\(.*?\)/gi, "")
+          .replace(" ", "\\s")
+          .replace("'", "\\'")
+          .replace("’", "'"),
         "i"
       );
       if (rgx.test(spellDb[i].name)) {
