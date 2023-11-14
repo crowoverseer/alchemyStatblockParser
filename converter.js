@@ -414,10 +414,12 @@ const parseLanguages = () => {
   if (languagesrow) {
     const languages = languagesrow.split(",");
     languages.forEach((language) => {
-      npc.proficiencies.push({
-        name: capitalize(language.trim()),
-        type: "language",
-      });
+      if (language !== "—" && language !== "-") {
+        npc.proficiencies.push({
+          name: capitalize(language.trim()),
+          type: "language",
+        });
+      }
     });
   }
 };
@@ -581,6 +583,9 @@ const fillNPCSpells = () => {
           savingThrow,
           school,
           tags,
+          damage,
+          higherLevelDescription,
+          higherLevels,
         } = spellDb[i];
         npc.spells.push({
           name,
@@ -593,6 +598,9 @@ const fillNPCSpells = () => {
           savingThrow,
           school,
           tags,
+          damage,
+          higherLevelDescription,
+          higherLevels,
         });
         // if some info about slots is exists, but not complete
         if (level && knownSlots.length) {
