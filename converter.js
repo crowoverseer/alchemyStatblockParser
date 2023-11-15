@@ -124,7 +124,7 @@ const removeProficiency = () => {
 };
 
 const parseSizeAndType = () => {
-  const regexp = /^(Tiny|Small|Medium|Large|Huge).*,/;
+  const regexp = /^(Tiny|Small|Medium|Large|Huge|Gargantuan).*,/;
   let npctypeline = find(regexp);
   if (!npctypeline) {
     return;
