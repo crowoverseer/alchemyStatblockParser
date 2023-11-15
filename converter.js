@@ -774,11 +774,12 @@ const parseActions = () => {
   source.splice(actionsSeparatorPos);
   const actionMainRegex = /^(?<name>.+?)\.\s?(?<description>.+)$/;
   // Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.
+  // Melee or Ranged Weapon Attack: +8 to hit, reach 15 ft. or range 60/240 ft., one target. Hit: 21 (3d10 + 5) piercing damage.
   // Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
   // DC 13 Dexterity saving throw
   // 14 (4d6) fire damage
   const attackRegex =
-    /^\s*(?<rangeType>(Ranged|Melee))\sWeapon\sAttack:\s?(?<bonus>[+-]\d).+?,\s?(range|reach)\s?(?<range>[^\sf]+)?/i;
+    /^(Melee or)?\s*(?<rangeType>(Ranged|Melee))\sWeapon\sAttack:\s?(?<bonus>[+-]\d*).+?,\s?(range|reach)\s?(?<range>[^\sf]+)?/i;
   const damageRegex =
     /\(\s*(?<dice>\d+d\d+)(\s?\+?\s?(?<bonus>\d+))?\s*\)\s*?(?<type>\w+)\s*\s+damage/gi;
   const savingThrowRegex = /DC\s*(?<dc>\d+)\s*(?<ability>\w+)\s*saving\sthrow/i;

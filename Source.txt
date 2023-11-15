@@ -1,25 +1,56 @@
-Apparmaole2
-Medium construct, unaligned
-Armor Class 12
-Hit Points 14 (4d6)
-Speed 0 ft., fly 40 ft. (hover)
-STR DEX CON
-14 (+2) 15 (+2) 10 (+0)
+bLOOdwOOd ChieFtain
+Huge giant, neutral evil
+Armor Class 16 (natural armor)
+Hit Points 207 (18d12 + 90)
+Speed 40 ft.
+STR
+24 (+7)
+DEX
+10 (+0)
+CON
+20 (+5)
 INT
-8 (-1)
+12 (+1)
 WIS
-4 (-3)
+12 (+1)
 CHA
-2 (-4)
-Damage Vulnerabilities fire
-Damage Immunities poison, psychic
-Condition Immunities blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses blindsight 60 ft. (blind beyond this radius), Passive Perception 7
-Languages –
-Challenge 1/2 (100 XP) Proficiency Bonus +2
-Antimagic Susceptibility. The apparmarole is inca- pacitated while in the area of antimagic field. If targeted by dispel magic, the apparmarole must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
-Damage Transfer. While grappling a creature, the apparmarole is resistant to all damage and the creature grappled by the apparmarole takes damage equal to that taken by the apparmarole.
-False Appearance. While the apparmarole remains motionless, it is indistinguishable from normal clothing.
+15 (+2)
+Saving Throws Con +8, Wis +4
+Skills Perception +7
+Senses passive Perception 17 Languages Giant
+Challenge 8 (3,900 XP)
+Proficiency Bonus +3
+Bleeding Strikes. A creature that takes damage from the giant’s blood spear attack must succeed at a DC 15 Constitution saving throw or gain the bleeding condition (see Grim Hollow Campaign Guide).
+Forest Camouflage. The giant has advantage on Dexterity (Stealth) checks made to hide in forested terrain.
+Innate Spellcasting. The giant’s spellcasting ability is Wisdom (spell save DC 12). The giant can innately cast the following spells, requiring no material components:
+At will: druidcraft
+1/day each: detect poison and disease, find traps
+Steadfast. The giant can’t be frightened while it can see an allied creature within 40 ft. of it
 aCtiOns
-Constrict. Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 12). Until this grapple ends, the target is restrained, blinded, and the apparmarole can’t constrict another target. In addition, at the start of the target’s turns, the target takes 4 (1d4 + 2) bludgeoning damage if the target is not charmed.
-Puppeteer. A creature grappled by the apparmarole must succeed on a DC 13 Wisdom saving throw or be charmed for 8 hours. While charmed, a telepathic link with the apparmarole is established. The apparmarole can issue commands without an action, which the creature does its best to obey.[r]Each time the target takes damage, it makes a new Wisdom saving throw, ending the effect on a success.
+Multiattack. The giant makes two blood spear attacks.
+Blood Spear. Melee or Ranged Weapon Attack: +10 to hit, reach 15 ft. or range 60/240 ft., one target. Hit: 23 (3d10 + 7) piercing damage.
+Rock. Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage.
+Description
+*"There was little we could do. Even Miklas's healing light couldn't staunch the blood welling from the wound torn by the giant's spear."*
+
+***Masters of Forest Depths***. Tainted by evil, these giants guard well their dark forested homes. Their dark mottled skin blends easily into the dappled light of shadowy woods.
+
+***Vicious Hunters***. The giants live in small clans, usually led by their strongest warrior. They wield great spears roughly carved from bloodwood trees that tear ragged wounds which even skilled healers have trouble mending.
+
+***Ancient Bargains***. These giants pay reverence to dark, long-forgotten spirits. Their shamans the vine callers, make blood-filled promises to ancient entities, hoping to reclaim lands they believe were stolen from them.
+
+***Cunning Giants.*** Though not as strong as their giant cousins, bloodwood giants are far more cunning. Experts at woodcraft, they can evade all but the most skilled trackers in their woodland homes.
+
+***Chieftan***. Most chieftains earn the grudging respect of their tribe by being their greatest hunter. Vine callers often tutor promising youth they foresee becoming clan leaders.
+
+### Salvage
+The massive bloodwood spears used by these giants are too large to be effectively wielded by Medium or smaller creatures.
+
+However, individuals proficient in carpenter's tools who succeed on a DC 12 Dexterity (Nature) check can reduce the size of the giant's spear to the equivalent of a pike (1d10 piercing damage) and which inflicts the bleeding condition if targets fail a DC 12 Constitution saving throw (see *Grim Hollow Campaign Guide*).
+
+### Lore
+**DC 10 Wisdom (Survival)**: Bloodwood giants are experts at hiding in their woodland homes.
+
+**DC 15 Intelligence (Nature)**: The blood spears used by these giants cut cruel wounds that can resist healing magic.
+
+**DC 20 Intelligence (Arcana)**: The tribe's vine callers are shamans who make pacts with ancient forest spirits to summon blood-drinking vines that rejuvenate the caster.
