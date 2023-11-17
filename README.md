@@ -9,8 +9,13 @@ Features:
 - Parsing actions with saving throws, attack and damage rolls
 - Calculates skills
 - Parsing reactions
-- Parsing descriptions (with about or description separator)
-- NOT parsing lair actions (yet)
+- Parsing descriptions
+
+Useful to know:
+- Write description after "About" or "Description" line
+- Make sure each info in the separate line (Senses etc.)
+- If you need a line break, you can use [r]. It will become \n
+- p option changes the description to public
 
 Possible abiliies formats:
 
