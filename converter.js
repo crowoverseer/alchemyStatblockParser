@@ -779,7 +779,7 @@ const parseActions = () => {
   // DC 13 Dexterity saving throw
   // 14 (4d6) fire damage
   const attackRegex =
-    /^(Melee or)?\s*(?<rangeType>(Ranged|Melee))\sWeapon\sAttack:\s?(?<bonus>[+-]\d*).+?,\s?(range|reach)\s?(?<range>[^\sf]+)?/i;
+    /^(Melee or)?\s*(?<rangeType>(Ranged|Melee))\s(Weapon|Spell)\sAttack:\s?(?<bonus>[+-]\d*).+?,\s?(range|reach)\s?(?<range>[^\sf]+)?/i;
   const damageRegex =
     /\(\s*(?<dice>\d+d\d+)(\s?\+?\s?(?<bonus>\d+))?\s*\)\s*?(?<type>\w+)\s*\s+damage/gi;
   const savingThrowRegex = /DC\s*(?<dc>\d+)\s*(?<ability>\w+)\s*saving\sthrow/i;
