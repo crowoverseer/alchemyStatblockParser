@@ -1,49 +1,52 @@
-bOg CrawLer
-Gargantuan aberration, unaligned
-Armor Class 18 (natural armor)
-Hit Points 279 (18d20 + 90)
-Speed 40 ft., swim 40 ft.
-STR
-26 (+8)
-DEX
-10 (+0)
-CON
-21 (+5)
-INT
-3 (–4)
+gLuttOny seraph
+Huge celestial, chaotic evil
+Armor Class 15 (natural armor)
+Hit Points 218 (19d12 + 95)
+Speed 30 ft., fly 30 ft.
+STR DEX CON INT
+21 (+5) 12 (+1) 20 (+5) 13 (+1)
 WIS
-11 (+0)
+15 (+2)
 CHA
-5 (–3)
-Saving Throws Con +10, Wis +5
-Damage Immunities acid, poison
-Condition Immunities charmed, frightened, paralyzed, poisoned
-Senses darkvision 120 ft., passive Perception 10
-Challenge 15 (13,000 XP)
-Amphibious. The bog crawler can breathe air and water.
-Slimy Movement. The bog crawler ignores difficult terrain, and magical effects can’t reduce its speed or cause it to be restrained. It can spend 5 feet of movement to escape from nonmagical restraints or being grappled.
+16 (+3)
+Saving Throws Con +10, Wis +7, Cha +8
+Skills Insight +7, Perception +7
+Damage Immunities poison
+Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+Condition Immunities charmed, exhaustion, frightened, poisoned
+Senses truesight 120 ft., passive Perception 17
+Languages all, telepathy 120 ft.
+Challenge 14 (11,500 XP)
+Proficiency Bonus +5
+Innate Spellcasting. The seraph’s spellcasting ability is Charisma (spell save DC 16). The seraph can innately cast the following spells, using only verbal components:
+At will: detect evil and good, detect magic, light, thaumaturgy
+3/day: suggestion
+1/day: create food and water (the food is tasty and the seraph can create wine instead of water)
+Magic Resistance. The seraph has advantage on saving throws against spells and other magical effects.
+Seraphic Weapons. The seraph’s weapon attacks are magical. When the seraph hits with any weapon, the weapon deals an extra 2d8 radiant damage (included in the attacks).
 aCtiOns
-Multiattack. The bog crawler makes two tentacle attacks, or one tentacle attack and one bite or swallow.
-Bite. Melee Weapon Attack: +13 to hit, reach 5 ft., one creature. Hit: 34 (4d12 + 8) piercing damage, and the target is grappled (escape DC 21). Until this grapple ends, the target is restrained, and the bog crawler can’t bite another target.
-Tentacle. Melee Weapon Attack: +13 to hit, reach 20 ft., one creature. Hit: 26 (4d8 + 8) bludgeoning damage, and the target is grappled (escape DC 21). Until the grapple ends, the target is restrained. The bog crawler has six tentacles, each of which can grapple one target.
-Swallow. The bog crawler makes one bite attack against a Huge or smaller creature it holds grappled with its bite. If the attack hits, the target takes the bite’s damage, the grapple ends, and the target is swallowed. While swallowed, a creature is blinded and restrained, has total cover against anything originating outside the bog crawler, and takes 36 (8d8) acid damage at the start of each of the bog crawler’s turns.[r]If the bog crawler takes 30 damage or more on a single turn from a creature inside it, the bog crawler must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in spaces within 10 feet of the bog crawler. If the bog crawler dies, a swallowed creature is no longer restrained by it and can escape the corpse by using 15 ft. of movement, exiting prone.
-Description
-*"These massive atrocities burrow into the boggy ground to sleep for decades, sometimes centuries, only coming out of their slimy burrows to feed and destroy."*
+Multiattack. The seraph makes three attacks, only one of which can be a bite.
+Bite. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage and 9 (2d8) radiant damage. If the target is a Large or smaller creature, it is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the seraph can’t bite another target.
+Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage and 9 (2d8) radiant damage.
+Tongue. Melee Weapon Attack: +10 to hit, reach 20 ft., one creature. Hit: 10 (2d4 + 5) bludgeoning damage and 9 (2d8) radiant damage, and the target is grappled (escape DC 18) and pulled to within 5 feet of the seraph. Until the grapple ends, the target is restrained, and the seraph can’t use its tongue or bite on another target.
+Swallow. The seraph makes one bite attack against a Medium or smaller creature it holds grappled. If the attack hits, the target takes the bite’s damage, the grapple ends, and the target is swallowed. While swallowed, a creature is blinded and restrained, has total cover against anything originating outside the seraph, and takes 18 (4d8) acid damage and 9 (2d8) radiant damage at the start of each of the seraph’s turns. The seraph can have only one creature swallowed at a time.[r]If the seraph takes 35 damage or more on a single turn from a creature inside it, the seraph must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 10 feet of the seraph. If the seraph dies, the swallowed creature is no longer restrained by it and can escape the corpse by using 10 feet of movement, exiting prone.
+About
+*"Don't go to the temple. Something sinister has claimed it. Seek shelter elsewhere."*
 
-***Hulking Terrors.*** Fleshy masses of a vaguely amphibian shape, these monstrosities wriggle out from deep hibernation in chaotic cycles, baffling the few naturalists who dare study them. The crawlers emerge ravenous, destroying everything in their path in search of food.
+***Fallen Celestials.*** When the gods fell, their agents struggled with how to go on. Most served the Arch Seraphs, who claimed their fallen god's mantle. Others found a different path. Either by choice or through an Arch Daemon's corruption, these celestials embraced evil. Such fallen celestials are known as disavowed.
 
-***Bizarre Horrors.*** Disgusting masses caked with mud and slime, the bog crawler's brown skin is covered in warts. Its face is somewhat frog-like, with a large mouth and multiple rows of sharp teeth. Its tail is a writhing mass of small tentacles that scuttle along the ground, propelling the creature on land and stabilizing it in water. Six large tentacles jut from the mass of its body, three on each flank, and are long and strong enough to attack nearby creatures and structures.
+***Avarice Seraphs.*** Many of the god Jezra's seraphs fell victim to Gorodyn's greed-filled words and joined the forces of the Arch Daemon of Avarice, becoming avarice seraphs. These beings still resemble the ideal of a glorious, winged angel. However, an avarice seraph's wings are black with silver-tipped feathers. Its eyes are also black, dripping with oily tears. The seraph has two faces on opposite sides of its head. One face smiles while the other frowns. The seraph rotates its head, displaying the face that suits its situation.
 
-***Famished Hunters.*** These beasts' primary motivation is hunger. They eat any flesh, starting with wildlife, moving on to livestock, and then feasting on any community they encounter. Much like a snake, their jaws are connected by a ligament and muscle network, allowing them to unhinge and swallow enormous creatures.
-
-***Inexplicable Retreat.*** While most bog crawlers spend a great time feeding, others retreat early, their hunger seemingly slaked. If a reason for these premature hibernations could be found, untold carnage might be avoided.
+***Gluttony Seraphs.*** Arch Daemon Sitri's temptations seduced seraphs who became gluttony seraphs, who now help further the Tempter's plans. Seeing their gods fall made these celestials recognize the futility of their previous ideals. Such seraphs have given in to their desires, particularly gastronomic ones, becoming giant froglike beings. Stunted wings sprout from a gluttony seraph's rotund form, allowing it awkward flight. A gluttony seraph has an enormous mouth, and the largest of them can swallow other creatures.
 
 ### Salvage
-A stone in the gullet of a bog crawler can be fashioned into a ring that combines the magic of a *ring of the ram* and a *ring of protection*. This work requires a proficient jeweler to spend 2500 gp in components and 5 days of work, succeeding on a DC 15 Intelligence (Arcana) check to complete the item.
+An avarice seraph's metal-tipped feathers can be sold. Those of the lesser seraph are worth 250 gp, while those of the seraph are worth 1,000 gp.
+
+Someone who has proficiency with alchemist's supplies can melt the metal on the feathers of an avarice seraph and use some feathers as fletching to make one arrow of celestial slaying for a lesser seraph, or four such arrows from the seraph. Making one arrow takes 7 days of work, reagents worth 1,000 gp, and a successful DC 17 Intelligence or Wisdom check.
+
+The saliva of a gluttony seraph functions as antitoxin--three doses can be collected from a lesser seraph, while ten can be gathered from a seraph. Someone who has proficiency with alchemist's supplies or an herbalism kit can mix two doses of this saliva with reagents worth 50 gp and brew the mixture for 4 hours. The resulting elixir affects the imbiber as a *protection from poison* spell, curing a random poison in the drinker's system.
 
 ### Lore
-**DC 10 Intelligence (History):** Bog crawlers are massive creatures capable of great destruction and carnage. They worm their way out of ancient burrows to feed after hundreds of years of hibernation.
+**DC 10 Intelligence (History):** The disavowed are seraphs fallen to evil. Each still retains a measure of its celestial power.
 
-**DC 15 Intelligence (Arcana):** Bog crawlers are immune to acid and poison. They can swallow creatures almost as large as they are, topple towers and strongholds, can't be stopped by charm or paralysis, and are immune to fear.
-
-**DC 20 Intelligence (Nature):** While a bog crawler's ability to swallow creatures is their greatest danger, they can use their main tentacles to grab and hold prey.
+**DC 15 Intelligence (Religion):** From their celestial heritage, disavowed retain magic resistance and resistance to nonmagical attacks, as well as immunity to being charmed, exhausted, and frightened. Even in a fallen state, the seraph imparts magic and radiant damage to its attacks. Gluttony seraphs are also immune to poison.

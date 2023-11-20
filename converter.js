@@ -981,7 +981,7 @@ try {
       /STR\s*DEX\s*CON\s*?\n(?<str>\d+)\s*\(.*?\)\s*(?<dex>\d+)\s*\(.*?\)\s*(?<con>\d+)\s*/gi;
     let brokenAbilityResult = brokenAbilityRegexp.exec(source);
     if (brokenAbilityResult && brokenAbilityResult.groups) {
-      console.error("Found broken scores. Fixing");
+      // console.error("Found broken scores. Fixing");
       const { str, dex, con } = brokenAbilityResult.groups;
       source = source.replaceAll(
         brokenAbilityRegexp,
@@ -992,7 +992,7 @@ try {
         /INT\nWIS\n*CHA\n*?\n(?<int>\d+)\s*\(.*?\)\n*(?<wis>\d+)\s*\(.*?\)\n*(?<cha>\d+)\s*/gi;
       brokenAbilityResult = brokenAbilityRegexpHalf2.exec(source);
       if (brokenAbilityResult && brokenAbilityResult.groups) {
-        console.error("Second half broken differently. Fixing");
+        // console.error("Second half broken differently. Fixing");
         const { int, wis, cha } = brokenAbilityResult.groups;
         source = source.replaceAll(
           brokenAbilityRegexpHalf2,
@@ -1006,11 +1006,24 @@ try {
       /STR\s*DEX\s*?\n(?<str>\d+)\s*\(.*?\)\s*(?<dex>\d+)\s*\(.*?\)\s*/gi;
     brokenAbilityResult = brokenAbilityRegexpShort.exec(source);
     if (brokenAbilityResult && brokenAbilityResult.groups) {
-      console.error("Found broken scores (short). Fixing");
+      // console.error("Found broken scores (short). Fixing");
       const { str, dex } = brokenAbilityResult.groups;
       source = source.replaceAll(
         brokenAbilityRegexpShort,
         `STR\n${str} (+0)\nDEX\n${dex} (+0)\n`
+      );
+    }
+    // STR DEX CON INT
+    // 21 (+5) 12 (+1) 20 (+5) 13 (+1)
+    const brokenAbilityRegexpLongShort =
+      /STR\s*DEX\s*CON\s*INT\s*?\n(?<str>\d+)\s*\(.*?\)\s*(?<dex>\d+)\s*\(.*?\)\s*(?<con>\d+)\s*\(.*?\)\s*(?<int>\d+)\s*\(.*?\)\s*/gi;
+    brokenAbilityResult = brokenAbilityRegexpLongShort.exec(source);
+    if (brokenAbilityResult && brokenAbilityResult.groups) {
+      // console.error("Found broken scores (long short). Fixing");
+      const { str, dex, con, int } = brokenAbilityResult.groups;
+      source = source.replaceAll(
+        brokenAbilityRegexpLongShort,
+        `STR\n${str} (+0)\nDEX\n${dex} (+0)\CON\n${con} (+0)\INT\n${int} (+0)\n`
       );
     }
     // STR DEX CON INT WIS CHA
