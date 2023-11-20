@@ -703,7 +703,7 @@ const parseSpells = (from = 0, shift = 0) => {
       spellLists.length + 1 + shift,
       protectedSpells
     );
-    parseSpells(innateSpellsIndex + 1, shift + 1); // if some other spellcasting left
+    parseSpells(innateSpellsIndex + 1); // if some other spellcasting left
   } else {
     fillNPCSpells();
   }
@@ -925,7 +925,7 @@ const parseActions = () => {
         };
       }
     });
-  // console.log( JSON.stringify( actions, null, 2 ) )
+  // console.error(JSON.stringify(actions, null, 2));
   npc.actions = actions;
 };
 
