@@ -1,47 +1,27 @@
-raMpage gnOLL
-Medium humanoid (gnoll), chaotic evil
-Armor Class 14 (natural armor)
-Hit Points 78 (12d8 + 24)
-Speed 40 ft., fly 40 ft.
-STR DEX CON
-17 (+3) 15 (+2) 14 (+2)
-INT
-7 (–2)
-WIS
+Living tOxin
+Small ooze, unaligned
+Armor Class 13
+Hit Points 44 (8d6 + 16)
+Speed 20 ft., swim 20 ft.
+STR
+9 (–1)
+DEX
+17 (+3)
+CON
 15 (+2)
+INT
+1 (–5)
+WIS
+10 (+0)
 CHA
-7 (–2)
-Skills Acrobatics +4, Athletics +5
-Senses darkvision 60 ft., passive Perception 12 Languages Gnoll
-Challenge 4 (1,100 XP) Proficiency Bonus +2
-Rampage Aura. Each creature hostile to the rampage gnoll and within 10 feet of it at the end of its turn must make a DC 12 Charisma saving throw. On a failure, the creature uses its reaction to make a melee weapon attack or use a melee spell attack cantrip against a target of the gnoll’s choice. The gnoll can force the target to move up to half its speed if necessary to make the attack. When moving, the target avoids obviously dangerous areas and provoking opportunity attacks if possible.[r]A creature who succeeds on the saving throw is immune to the Rampage Aura of all rampage gnolls for 1 hour.
-Instinctive. The rampage gnoll has advantage on initiative rolls and saving throws against being charmed or frightened. If surprised, the gnoll can still act normally on its first turn.
-Rampage. When the rampage gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-Skilled Brute. A weapon deals one extra die of its damage when the rampage gnoll hits with it (included in the attacks).
+1 (–5)
+Damage Immunities poison
+Condition Immunities blinded, charmed, deafened, exhaustion, frightened, poisoned, prone
+Senses blindsight 60 ft. (blind beyond this radius), passive Perception 10
+Languages —
+Challenge 2 (450 XP)
+Proficiency Bonus +2 Amorphous. The living toxin can move through a space as narrow as 1 inch wide without squeezing.
+Toxic Nature. When the living toxin or its host (see Toxic Invasion) is subjected to an effect that cures the poisoned condition, the toxin takes 2d8 necrotic damage plus 1d8 necrotic damage per level of the effect, if any.
 aCtiOns
-Multiattack. The rampage gnoll makes three attacks, only one of which can be a bite.
-Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.
-Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.
-Wing Spike. Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
-About
-*"I never believed the rumors about the Beast and how it could change people. Then I saw how everyone at the logging camp had been transformed. It had to be a power even greater than a god's."*
-
-***Beast Cursed.*** Gnolls aren't a naturally occurring species. Instead, they're other humanoids mutated due to the influence of the Beast. This power transforms its victims into raving monsters bent on destruction. Gnolls keep their humanoid shape, but the head becomes like that of a jackal, and they grow fur, fangs, and claws. The brain changes, as well, allowing gnolls to communicate in their own twisted language.
-
-***Roving Warbands.*** Gnolls have become incapable of civilized behavior; their driving instinct is wanton destruction. They join other "children" of the Beast, forming warbands that swarm across the countryside, killing and eating every living creature in their path. Within the warband is a loose social structure based on strength and an instinctual recognition of other Beast-bound creatures.
-
-***Continual Transformation.*** A gnoll is the first stage in a continuing mutation process. Gnolls that eat enough raw flesh and drink enough blood can mutate into other forms. A gnoll might grow spikes from their spinal column, and these spikes can be removed and thrown like darts. Other gnolls ooze poison from these spikes and might gain other abilities. Rare gnolls even grow batlike wings.
-
-### Salvage
-The spine spikes of a venomous gnoll can be fashioned into four arrows, bolts, or darts. Someone who has proficiency with smith's tools or tinker's tools can make these projectiles in 4 hours. Each time one of these projectiles hits a target, the target takes an extra 1d4 poison damage, but if the d20 on the attack roll is a 1 or an even number other than 20, the projectile ceases to be poisonous.
-
-Someone who has proficiency with alchemist's supplies can use the saliva glands from two gnoll brutes or one rampage gnoll to create a *potion of growth*. The glands must be harvested by someone who has proficiency in the Medicine skill, and doing so requires a successful DC 13 Wisdom (Medicine) check. These glands must be used within 3 days or they go bad, although a *gentle repose* spell cast on the glands makes them last for that spell's duration. Making the potion requires 1 day of work and reagents worth 25 gp.
-
-The wings of a rampage gnoll can be used to fashion bat *wings of flying*. Someone who has proficiency in leatherworker's tools can make this cloak in 5 days, using reagents worth 500 gp. Somebody must cast *fly* on the cloak on three out of the five days of its making. These wings give you a fly speed of only 40 feet, but they can be used once every 1d8 hours.
-
-### Lore
-**DC 10 Intelligence (Arcana):** Gnolls were once normal humanoids, but they have been mutated by the power of the Beast.
-
-**DC 10 Intelligence (Nature):** Some gnolls use spikes that grow from their bones, usually the spine, as projectiles. Different gnolls have different mutations, though, and some of these spikes are poisonous. The strongest mutants develop wings and infect the minds of those nearby with bloodthirsty fury.
-
-**DC 15 Intelligence (History):** Gnolls form bands along with other mutated creatures to rampage across their region. The gnolls eat the flesh and drink the blood of any living things they kill. They speak to each other in their own language of howls, snarls, and grunts.
+Touch. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) poison damage, the target is grappled (escape DC 13), and until this grapple ends, the living toxin can’t attack another target.
+Toxic Invasion. A creature grappled by the living toxin must succeed on a DC 13 Constitution save or it takes 6 (1d6 + 3) poison damage, and the living toxin invades the creature’s body. While in this host, the living toxin has total cover from effects that originate outside the host, the host is poisoned, and the host takes 10 (2d6 +3) poison damage at the start of each of the living toxin’s turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This effect also ends if the host dies or is subjected to any effect that ends the poisoned condition. When the effect ends, the toxin leaves the host, entering an unoccupied space within 5 feet of the host.

@@ -90,9 +90,16 @@ const fillTheChatacter = async (character, characterId) => {
     body: JSON.stringify(updateCharacterQuery),
   });
   resp = await resp.json();
+  if (resp.errors) {
+    console.log(resp.errors[0]);
+  }
 };
 
 const insertIntoUniverse = async (npc, universeId, moduleId) => {
+  if (npc.spells && npc.spells.length > 0) {
+    console.error("Spells creation is not supported with u option");
+    process.exit(1);
+  }
   const characterId = await copyNewCharacter(universeId, moduleId);
   await addResourse(characterId, moduleId);
   const actions = [...(npc.actions ?? [])];

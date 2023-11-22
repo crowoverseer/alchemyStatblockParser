@@ -8,6 +8,7 @@ const spellDb = require("./spells");
 const ABILITY_REGEX =
   /STR[\s]*(?<str>\d+)[\s()\+\-\d–]*?DEX[\s]*(?<dex>\d+)[\s()\+\-\d–]*?CON[\s]*(?<con>\d+)[\s()\+\-\d–]*?INT[\s]*(?<int>\d+)[\s()\+\-\d–]*?WIS[\s]*(?<wis>\d+)[\s()\+\-\d–]*?CHA[\s]*(?<cha>\d+)/gi;
 const RETURN = "[r]";
+const DOUBLE_RETURN = "[rr]";
 
 let publicDescr = false;
 let insertIntoUniverse = false;
@@ -155,13 +156,18 @@ const parseAlignment = () => {
 };
 
 const parseAC = () => {
-  const armorClass =
+  // Armor Class 20 (plate, shield)
+  const { ac, type } =
     findAndShift(
       /^Armor Class.*?\(.*?(?<ac>\d+)/i, // alternate armor class
       "ac"
-    ) || findAndShift(/^Armor Class\s?(?<ac>\d+)/i, "ac");
-  npc.armorClass = Number(armorClass);
-  npc.armorType = "Natural Armor";
+    ) ||
+    findAndShift(/^Armor Class\s?(?<ac>\d+)\s*\(?(?<type>[^,\)]*)/i, [
+      "ac",
+      "type",
+    ]);
+  npc.armorClass = Number(ac);
+  npc.armorType = type ? capitalize(type) : "--";
 };
 
 const parseHPAndXP = () => {
@@ -170,6 +176,11 @@ const parseHPAndXP = () => {
     ["hp", "hitDice"]
   );
   const xp = find(/Challenge.*?\((?<xp>[\d,]+)\s?XP\)/i, "xp").replace(",", "");
+
+  if (hp === undefined) {
+    console.error("HP not found");
+    process.exit(1);
+  }
 
   npc.hitDice = hitDice;
   npc.trackers = [
@@ -808,7 +819,9 @@ const parseActions = () => {
       }
 
       let { name, description, range } = actionMainRegexResult;
-      description = description.replaceAll(RETURN, "\n");
+      description = description
+        .replaceAll(RETURN, "\n")
+        .replaceAll(DOUBLE_RETURN, "\n\n");
 
       if (name && description) {
         let rollsAttack = false;
@@ -955,7 +968,9 @@ const parseAbilities = () => {
     const regResult = abilityRegex.exec(line);
     try {
       const ability = {
-        body: regResult.groups["body"].replaceAll(RETURN, "\n"),
+        body: regResult.groups["body"]
+          .replaceAll(RETURN, "\n")
+          .replaceAll(DOUBLE_RETURN, "\n\n"),
         title: regResult.groups["title"],
       };
       return ability;
