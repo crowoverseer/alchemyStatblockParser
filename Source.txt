@@ -1,52 +1,47 @@
-gLuttOny seraph
-Huge celestial, chaotic evil
+garish augMent
+Medium humanoid, any evil
 Armor Class 15 (natural armor)
-Hit Points 218 (19d12 + 95)
-Speed 30 ft., fly 30 ft.
+Hit Points 123 (13d8 + 65)
+Speed 30 ft.
 STR DEX CON INT
-21 (+5) 12 (+1) 20 (+5) 13 (+1)
+16 (+3) 16 (+3) 20 (+5) 12 (+1)
 WIS
-15 (+2)
+11 (+0)
 CHA
-16 (+3)
-Saving Throws Con +10, Wis +7, Cha +8
-Skills Insight +7, Perception +7
-Damage Immunities poison
-Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
-Condition Immunities charmed, exhaustion, frightened, poisoned
-Senses truesight 120 ft., passive Perception 17
-Languages all, telepathy 120 ft.
-Challenge 14 (11,500 XP)
-Proficiency Bonus +5
-Innate Spellcasting. The seraph’s spellcasting ability is Charisma (spell save DC 16). The seraph can innately cast the following spells, using only verbal components:
-At will: detect evil and good, detect magic, light, thaumaturgy
-3/day: suggestion
-1/day: create food and water (the food is tasty and the seraph can create wine instead of water)
-Magic Resistance. The seraph has advantage on saving throws against spells and other magical effects.
-Seraphic Weapons. The seraph’s weapon attacks are magical. When the seraph hits with any weapon, the weapon deals an extra 2d8 radiant damage (included in the attacks).
+6 (–2)
+Saving Throws Con +8, Wis +3
+Damage Resistances acid, poison, psychic
+Skills Arcana +4, Athletics +6, Medicine +3, Perception +3
+Senses darkvision 60 ft., passive Perception 13
+Languages One national language; Deep Speech or Infernal (see text)
+Challenge 5 (1,800 XP)
+Proficiency Bonus +3
+Augmented Movement. The garish augment has two other movement modes selected from: burrow 10 feet, climb 30 feet, and swim 30 feet.
+Augmented Spit. The garish augment deals acid, necrotic or poison damage with its spit (choose one). Being within 5 ft. of a hostile creature doesn’t cause the garish augment to have disadvantage on the attack roll.
+Augmented Strikes. The garish augment deals bludgeoning, slashing, or piercing damage with its strike (choose one).
+Jumper. The garish augment jumps twice as far as its ability check to do so indicates.
+Unnatural Presence. Effects that detect aberrations or fiends can detect the garish augment.
 aCtiOns
-Multiattack. The seraph makes three attacks, only one of which can be a bite.
-Bite. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage and 9 (2d8) radiant damage. If the target is a Large or smaller creature, it is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the seraph can’t bite another target.
-Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage and 9 (2d8) radiant damage.
-Tongue. Melee Weapon Attack: +10 to hit, reach 20 ft., one creature. Hit: 10 (2d4 + 5) bludgeoning damage and 9 (2d8) radiant damage, and the target is grappled (escape DC 18) and pulled to within 5 feet of the seraph. Until the grapple ends, the target is restrained, and the seraph can’t use its tongue or bite on another target.
-Swallow. The seraph makes one bite attack against a Medium or smaller creature it holds grappled. If the attack hits, the target takes the bite’s damage, the grapple ends, and the target is swallowed. While swallowed, a creature is blinded and restrained, has total cover against anything originating outside the seraph, and takes 18 (4d8) acid damage and 9 (2d8) radiant damage at the start of each of the seraph’s turns. The seraph can have only one creature swallowed at a time.[r]If the seraph takes 35 damage or more on a single turn from a creature inside it, the seraph must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 10 feet of the seraph. If the seraph dies, the swallowed creature is no longer restrained by it and can escape the corpse by using 10 feet of movement, exiting prone.
+Multiattack. The garish augment makes three melee or ranged attacks in any combination.
+Strike. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) damage of the type from Aug- mented Strikes.
+Spit. Ranged Weapon Attack: +6 to hit, range 30/60 ft., one target. Hit: 8 (2d4 + 3) damage of the type from Augmented Spit.
+reaCtiOns
+Parry. When hit by a melee attack or ranged weapon attack from an attacker the garish augment can see, the garish augment adds 2 to its AC.
 About
-*"Don't go to the temple. Something sinister has claimed it. Seek shelter elsewhere."*
+*"Unnatural growths and limbs protrude from this creature, which might have once been a person but is now a monster."*
 
-***Fallen Celestials.*** When the gods fell, their agents struggled with how to go on. Most served the Arch Seraphs, who claimed their fallen god's mantle. Others found a different path. Either by choice or through an Arch Daemon's corruption, these celestials embraced evil. Such fallen celestials are known as disavowed.
+***Patchwork Body.*** Some people do anything for power. Those who become garish augments make deals with otherworldly powers or experiment with vile magic to enhance themselves. Such pursuits often go terribly wrong.
 
-***Avarice Seraphs.*** Many of the god Jezra's seraphs fell victim to Gorodyn's greed-filled words and joined the forces of the Arch Daemon of Avarice, becoming avarice seraphs. These beings still resemble the ideal of a glorious, winged angel. However, an avarice seraph's wings are black with silver-tipped feathers. Its eyes are also black, dripping with oily tears. The seraph has two faces on opposite sides of its head. One face smiles while the other frowns. The seraph rotates its head, displaying the face that suits its situation.
+A garish augment might fight with an enormous claw, acid spit, quills, or all the above. None are identical. Every augment is different, and few who see one ever mistake another for it.
 
-***Gluttony Seraphs.*** Arch Daemon Sitri's temptations seduced seraphs who became gluttony seraphs, who now help further the Tempter's plans. Seeing their gods fall made these celestials recognize the futility of their previous ideals. Such seraphs have given in to their desires, particularly gastronomic ones, becoming giant froglike beings. Stunted wings sprout from a gluttony seraph's rotund form, allowing it awkward flight. A gluttony seraph has an enormous mouth, and the largest of them can swallow other creatures.
+***Unquenchable Need.*** A garish augment never ceases its quest to kill and harvest appendages and organs from other creatures to incorporate into its own makeup.
+
+***Fiendish or Aberrant Aid.*** The alchemical processes necessary to successfully augment doesn't come from magic alone. At some point, the garish augment delved into forbidden knowledge, either fiendish or aberrant in nature, to successfully bond parts of their victims to their living body.
 
 ### Salvage
-An avarice seraph's metal-tipped feathers can be sold. Those of the lesser seraph are worth 250 gp, while those of the seraph are worth 1,000 gp.
+With 1 hour of work and a successful DC 15 Wisdom (Survival) check, the acidor poison-producing organ of a garish augment can be harvested to provide one vial of acid or two doses of basic poison.
 
-Someone who has proficiency with alchemist's supplies can melt the metal on the feathers of an avarice seraph and use some feathers as fletching to make one arrow of celestial slaying for a lesser seraph, or four such arrows from the seraph. Making one arrow takes 7 days of work, reagents worth 1,000 gp, and a successful DC 17 Intelligence or Wisdom check.
-
-The saliva of a gluttony seraph functions as antitoxin--three doses can be collected from a lesser seraph, while ten can be gathered from a seraph. Someone who has proficiency with alchemist's supplies or an herbalism kit can mix two doses of this saliva with reagents worth 50 gp and brew the mixture for 4 hours. The resulting elixir affects the imbiber as a *protection from poison* spell, curing a random poison in the drinker's system.
+However, unless fiendish pieces of the creature are burned, the fiend whom the garish augment dealt with might come seeking payment from the augment's killers.
 
 ### Lore
-**DC 10 Intelligence (History):** The disavowed are seraphs fallen to evil. Each still retains a measure of its celestial power.
-
-**DC 15 Intelligence (Religion):** From their celestial heritage, disavowed retain magic resistance and resistance to nonmagical attacks, as well as immunity to being charmed, exhausted, and frightened. Even in a fallen state, the seraph imparts magic and radiant damage to its attacks. Gluttony seraphs are also immune to poison.
+**DC 15 Intelligence (Religion or Arcana):** This creature's strange augmentations give it a variety of attacks and means of movement.

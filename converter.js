@@ -10,6 +10,8 @@ const ABILITY_REGEX =
 const RETURN = "[r]";
 
 let publicDescr = false;
+let insertIntoUniverse = false;
+let universeId, moduleId;
 let source = [];
 
 const npc = {
@@ -23,6 +25,7 @@ const npc = {
 if (process.argv.length < 3) {
   console.log("USAGE: node converter [options?] [soucefile] > result.json");
   console.log("  p - public description");
+  console.log("  u universeId moduleId - insert into universe");
   return;
 }
 let sourcefile = process.argv[process.argv.length - 1];
@@ -31,6 +34,15 @@ process.argv.forEach((arg) => {
     case "p":
       publicDescr = true;
       break;
+    case "u":
+      insertIntoUniverse = true;
+      break;
+    default:
+      if (insertIntoUniverse && !universeId) {
+        universeId = arg;
+      } else if (insertIntoUniverse && universeId && !moduleId) {
+        moduleId = arg;
+      }
   }
 });
 
@@ -1080,6 +1092,9 @@ parseActions(); // should be after parseDescription and legendary actions
 parseAbilities(); // should be last
 finalFill();
 
-const result = JSON.stringify(npc, null, 2);
-
-console.log(result);
+if (insertIntoUniverse) {
+  require("./insertIntoUniverse")(npc, universeId, moduleId);
+} else {
+  const result = JSON.stringify(npc, null, 2);
+  console.log(result);
+}
