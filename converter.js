@@ -627,7 +627,10 @@ const fillNPCSpells = () => {
         break;
       }
     }
-    if (!found) console.error("WARNING: spell not found:", spellName);
+    if (!found) {
+      console.error("ERROR: spell not found:", spellName);
+      process.exit(1);
+    }
   });
   if (spellSlots.length) {
     npc.spellSlots = spellSlots;
@@ -801,7 +804,7 @@ const parseActions = () => {
       const actionMainRegexResult = actionMainRegex.exec(action)?.groups;
       if (!actionMainRegexResult) {
         console.error("Error while parsing the action line", action);
-        return;
+        process.exit(1);
       }
 
       let { name, description, range } = actionMainRegexResult;
@@ -958,6 +961,7 @@ const parseAbilities = () => {
       return ability;
     } catch (err) {
       console.error("Error while parsing ability line: ", line);
+      process.exit(1);
     }
   });
   if (npc.textBlocks.length) {
@@ -1059,7 +1063,7 @@ try {
     source = source.replace(/Description\n\n/i, "Description\n");
   } catch (err) {
     console.error("Error while parsing ability scores\n\n", err);
-    return -1;
+    process.exit(1);
   }
   source = source.split("\n");
 } catch (err) {

@@ -3,7 +3,7 @@ const { headers, userId } = require("./userInfo");
 const NEW_CHARACTER_ID = "60f50eb8e714990008c13193";
 
 const copyNewCharacter = async (universeId, moduleId) => {
-  console.log("Copying New Character");
+  // console.log("Copying New Character");
   const copyNewCharacterQuery = {
     operationName: "CopyCharacter",
     variables: {
@@ -25,7 +25,7 @@ const copyNewCharacter = async (universeId, moduleId) => {
 };
 
 const addResourse = async (characterId, moduleId) => {
-  console.log("Adding the chacater to module");
+  // console.log("Adding the chacater to module");
   const addResourceQuery = {
     operationName: "AddResourceToMarketplaceItem",
     variables: {
@@ -45,7 +45,7 @@ const addResourse = async (characterId, moduleId) => {
 let actionSortOrder = 0;
 const addAction = async (characterId, action) => {
   const { name, steps, description } = action;
-  console.log("Adding action:", name);
+  // console.log("Adding action:", name);
   const addActionQuery = {
     operationName: "AddOrUpdateAction",
     variables: {
@@ -74,7 +74,7 @@ const addAction = async (characterId, action) => {
 };
 
 const fillTheChatacter = async (character, characterId) => {
-  console.log("Filling the character...");
+  //console.log("Filling the character...");
   const updateCharacterQuery = {
     operationName: "UpdateCharacterFromCharacterSheet",
     variables: {
@@ -93,7 +93,6 @@ const fillTheChatacter = async (character, characterId) => {
 };
 
 const insertIntoUniverse = async (npc, universeId, moduleId) => {
-  console.log(universeId, moduleId);
   const characterId = await copyNewCharacter(universeId, moduleId);
   await addResourse(characterId, moduleId);
   const actions = [...(npc.actions ?? [])];
