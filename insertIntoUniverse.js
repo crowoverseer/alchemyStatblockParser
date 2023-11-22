@@ -45,7 +45,7 @@ const addResourse = async (characterId, moduleId) => {
 let actionSortOrder = 0;
 const addAction = async (characterId, action) => {
   const { name, steps, description } = action;
-  // console.log("Adding action:", name);
+  console.log("Adding action:", name);
   const addActionQuery = {
     operationName: "AddOrUpdateAction",
     variables: {
@@ -99,7 +99,7 @@ const insertIntoUniverse = async (npc, universeId, moduleId) => {
   delete npc.actions;
   await fillTheChatacter(npc, characterId);
   actions.forEach(async (action) => await addAction(characterId, action));
-  console.log(`![${npc.name}=type:character](${characterId})`); //![ButtonName=type:character](655dd6bb3946a2aea55ea39c)
+  console.log(`\n![${npc.name}=type:character](${characterId})`); //![ButtonName=type:character](655dd6bb3946a2aea55ea39c)
 };
 
 module.exports = insertIntoUniverse;

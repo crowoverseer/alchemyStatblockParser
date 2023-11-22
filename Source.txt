@@ -1,33 +1,28 @@
-gnOLL brute
+raMpage gnOLL
 Medium humanoid (gnoll), chaotic evil
-Armor Class 13 (natural armor)
-Hit Points 52 (8d8 + 16)
-Speed 40 ft.
-STR DEX
-16 (+3) 12 (+1)
-CON
-15 (+2)
+Armor Class 14 (natural armor)
+Hit Points 78 (12d8 + 24)
+Speed 40 ft., fly 40 ft.
+STR DEX CON
+17 (+3) 15 (+2) 14 (+2)
 INT
-6 (–2)
+7 (–2)
 WIS
-13 (+1)
+15 (+2)
 CHA
 7 (–2)
-Skills Athletics +5
-Senses darkvision 60 ft., passive Perception 11
-Languages Gnoll
-Challenge 2 (450 XP)
-Proficiency Bonus +2
-Brute. A melee weapon deals one extra die of its damage when the gnoll brute hits with it (included in the attacks).
-Charge. If the gnoll brute moves at least 20 feet straight toward a target and then hits it with a melee weapon attack on the same turn, the target takes one extra die of the weapon’s damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or fall prone.
-Instinctive. The gnoll brute has advantage on initiative rolls and saving throws against being charmed or frightened. If surprised, the gnoll can still act normally on its first turn.
-Rampage. When the gnoll brute reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
+Skills Acrobatics +4, Athletics +5
+Senses darkvision 60 ft., passive Perception 12 Languages Gnoll
+Challenge 4 (1,100 XP) Proficiency Bonus +2
+Rampage Aura. Each creature hostile to the rampage gnoll and within 10 feet of it at the end of its turn must make a DC 12 Charisma saving throw. On a failure, the creature uses its reaction to make a melee weapon attack or use a melee spell attack cantrip against a target of the gnoll’s choice. The gnoll can force the target to move up to half its speed if necessary to make the attack. When moving, the target avoids obviously dangerous areas and provoking opportunity attacks if possible.[r]A creature who succeeds on the saving throw is immune to the Rampage Aura of all rampage gnolls for 1 hour.
+Instinctive. The rampage gnoll has advantage on initiative rolls and saving throws against being charmed or frightened. If surprised, the gnoll can still act normally on its first turn.
+Rampage. When the rampage gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
+Skilled Brute. A weapon deals one extra die of its damage when the rampage gnoll hits with it (included in the attacks).
 aCtiOns
-Multiattack. The gnoll brute makes one bite attack and one claws attack.
-Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
-Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.
-reaCtiOns
-Shared Rampage. If any creature allied with and within 100 feet of the gnoll brute uses its Rampage trait, the gnoll brute can use its Rampage trait, too, provided the brute can see that ally.
+Multiattack. The rampage gnoll makes three attacks, only one of which can be a bite.
+Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.
+Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.
+Wing Spike. Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
 About
 *"I never believed the rumors about the Beast and how it could change people. Then I saw how everyone at the logging camp had been transformed. It had to be a power even greater than a god's."*
 
