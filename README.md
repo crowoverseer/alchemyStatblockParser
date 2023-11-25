@@ -14,7 +14,7 @@ Features:
 Useful to know:
 - Write description after "About" or "Description" line
 - Make sure each info in the separate line (Senses etc.)
-- If you need a line break, you can use [r]. It will become \n
+- If you need a line break, you can use [r]. It will become \n. [rr] become \n\n
 - p option changes the description to public
 
 Possible abiliies formats:
