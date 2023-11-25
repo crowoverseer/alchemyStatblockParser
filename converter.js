@@ -129,7 +129,7 @@ const prepareSource = () => {
 
 const parseName = () => {
   const name = source.shift();
-  npc.name = capitalize(name.toLowerCase());
+  npc.name = capitalize(name.toLowerCase()).replace(" Of ", " of ");
 };
 
 const removeProficiency = () => {
