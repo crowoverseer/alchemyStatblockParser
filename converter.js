@@ -752,7 +752,9 @@ const parseReactions = () => {
   const textBlocks = reactionLines.map((line) => {
     const regResult = reactionRegex.exec(line);
     const reaction = {
-      body: regResult.groups["body"],
+      body: regResult.groups["body"]
+        .replaceAll(RETURN, "\n")
+        .replaceAll(DOUBLE_RETURN, "\n\n"),
       title: `${regResult.groups["title"]} (Reaction)`,
     };
     return reaction;

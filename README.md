@@ -16,6 +16,7 @@ Useful to know:
 - Make sure each info in the separate line (Senses etc.)
 - If you need a line break, you can use [r]. It will become \n. [rr] become \n\n
 - p option changes the description to public
+- Reactions should be the last in statblock (after actions and legendary actions, but before description)
 
 Possible abiliies formats:
 
