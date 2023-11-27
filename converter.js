@@ -775,7 +775,7 @@ const parseLedendaryActions = () => {
   source = [`Legendary Actions. ${actionDescription}`, ...source];
   const actionRegexp = /^(?<name>.+?)\.\s*(?<description>.*)/;
   const legActions = [];
-  for (let i = legendaryActionsPos; i < source.length; i++) {
+  for (let i = legendaryActionsPos + 1; i < source.length; i++) {
     const regRes = actionRegexp.exec(source[i]);
     if (!regRes) {
       break;
