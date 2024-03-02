@@ -657,7 +657,7 @@ const parseSpellListAt = (listIdx) => {
   // At will: detect magic, disguise self, mage armor
   // 2nd level (3 slots):
   const spellForLevelRegexps = [
-    /^(?<slotlevel>\d)(nd|st|rd|th)\s+level:?\s+\((?<slotcount>\d+)\s+slots?\)\s*:?\s*(?<spells>.*)/i,
+    /^(?<slotlevel>\d)(nd|st|rd|th)[\s-]+level:?\s+\((?<slotcount>\d+)\s+slots?\)\s*:?\s*(?<spells>.*)/i,
     new RegExp(
       isSpellListPattern.concat(
         ".*?:\\s*\\((?<slotcount>\\d+)\\s*(?<slotlevel>\\d+).*?\\)\\s*:\\s*(?<spells>.*)"

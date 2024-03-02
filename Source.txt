@@ -1,27 +1,29 @@
-Living tOxin
-Small ooze, unaligned
-Armor Class 13
-Hit Points 44 (8d6 + 16)
-Speed 20 ft., swim 20 ft.
-STR
-9 (–1)
-DEX
-17 (+3)
-CON
-15 (+2)
-INT
-1 (–5)
-WIS
-10 (+0)
-CHA
-1 (–5)
-Damage Immunities poison
-Condition Immunities blinded, charmed, deafened, exhaustion, frightened, poisoned, prone
-Senses blindsight 60 ft. (blind beyond this radius), passive Perception 10
-Languages —
-Challenge 2 (450 XP)
-Proficiency Bonus +2 Amorphous. The living toxin can move through a space as narrow as 1 inch wide without squeezing.
-Toxic Nature. When the living toxin or its host (see Toxic Invasion) is subjected to an effect that cures the poisoned condition, the toxin takes 2d8 necrotic damage plus 1d8 necrotic damage per level of the effect, if any.
-aCtiOns
-Touch. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) poison damage, the target is grappled (escape DC 13), and until this grapple ends, the living toxin can’t attack another target.
-Toxic Invasion. A creature grappled by the living toxin must succeed on a DC 13 Constitution save or it takes 6 (1d6 + 3) poison damage, and the living toxin invades the creature’s body. While in this host, the living toxin has total cover from effects that originate outside the host, the host is poisoned, and the host takes 10 (2d6 +3) poison damage at the start of each of the living toxin’s turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This effect also ends if the host dies or is subjected to any effect that ends the poisoned condition. When the effect ends, the toxin leaves the host, entering an unoccupied space within 5 feet of the host.
+Roia Garlaka
+Medium humanoid, unaligned
+Armor Class 17 (mastercraft concealed armor)
+Hit Points 27 (6d8)
+Speed 30 ft.
+STR DEX CON INT WIS CHA
+11 (+0) 20 (+5) 11 (+0) 14 (+2) 15 (+2) 12 (+1)
+Skills Acrobatics +7, Perception +4, Sleight of Hand +7, Stealth +7
+Senses passive Perception 15
+Languages Ambrian
+Challenge 3 (700 XP)
+Backstab (1/turn). Roia deals an extra 14 (4D6) damage when she hits a target with a melee weapon attack and has advantage on the attack roll, or when the target is within 5 feet of her ally who isn’t incapacitated and she doesn’t have disadvantage on the attack roll.
+Blade Work. If Roia uses her bonus action to make an off-hand melee weapon attack, she adds her Dexterity modifier to the damage.
+Cunning Action. On each of her turns, Roia can use a bonus action to take the Dash, Disengage, or Hide action.
+Evasion. If Roia is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if it fails.
+Actions
+Assassin’s Blade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage. Concealable: Roia can make a Dexterity (Sleight of Hand) check to hide this weapon on her person.
+Stiletto. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage. Deep Impact: a critical hit with this weapon does a total of 20 (2d4 + 10) piercing damage.
+Reactions
+Acrobatic Fighter. Roia can make a Dexterity (Acrobatics) check with the attack roll as the DC to take half damage from an attack on a success.
+About
+**Manner:** sways from foot to foot
+**Shadow:** shiny steel with star shaped rust roses (0/5)
+**Equipment:** 1d4 Herbal Cures
+
+*"Sure, I am kind of tired of killing, but I'm deadly good at it!"*
+Roia was once the scout of the squad and has innumerous scars on body and face from being the first to discover (and at times, being discovered by) the enemy. Other than that, she is primarily known for her dark sense of humor.
+
+When Serex has his famous outbursts it is not uncommon to hear the hoarse, croaking laughter of a woman over the sound of the turmoil; later the two friends often leave the scene together – the utterly drunk Serex leaning on Roia, who has been thrown out for making other guests uncomfortable with her gallows humor. The idiot who dares suggest that they are headed for a shared bed has only himself to blame for the pain.
