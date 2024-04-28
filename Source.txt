@@ -1,29 +1,36 @@
-Roia Garlaka
+Oryela/Iel
 Medium humanoid, unaligned
-Armor Class 17 (mastercraft concealed armor)
-Hit Points 27 (6d8)
+Armor Class 17 (Cowl of Dorgvalg)
+Hit Points 119 (14d8 + 56)
 Speed 30 ft.
 STR DEX CON INT WIS CHA
-11 (+0) 20 (+5) 11 (+0) 14 (+2) 15 (+2) 12 (+1)
-Skills Acrobatics +7, Perception +4, Sleight of Hand +7, Stealth +7
-Senses passive Perception 15
-Languages Ambrian
-Challenge 3 (700 XP)
-Backstab (1/turn). Roia deals an extra 14 (4D6) damage when she hits a target with a melee weapon attack and has advantage on the attack roll, or when the target is within 5 feet of her ally who isn’t incapacitated and she doesn’t have disadvantage on the attack roll.
-Blade Work. If Roia uses her bonus action to make an off-hand melee weapon attack, she adds her Dexterity modifier to the damage.
-Cunning Action. On each of her turns, Roia can use a bonus action to take the Dash, Disengage, or Hide action.
-Evasion. If Roia is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if it fails.
+13 (+1) 17 (+3) 18 (+4) 11 (+1) 20 (+5) 10 (+0)
+Saving Throws Int +5, Wis +9
+Skills Arcana +5, Insight +9, Perception +9
+Senses passive Perception 19
+Languages Ambrian, Barbarian, Goblin
+Challenge 9 (5,000 XP)
+Shapeshifter (4/day). Iel can become a battle-trained jakaar for six hours.
+Spellcasting. Iel (+9 to hit, spell save DC 17) knows the following spells:
+Cantrips: accurate strike, chill touch, mage hand, minor illusion, poison spray, prestidigitation
+1st-level spells: charm person, comprehend languages, hellish rebuke, find familiar, illusory script
+2nd-level spells: enthrall, ray of enfeeblement, blood bond
+3rd-level spells: counterspell, larvae boil
+4th-level spells: blight, dimension door
+5th-level spells: hold monster, telepathic bond
+6th-level spells: circle of death, mass suggestion
+7th-level spells: etherealness, finger of death
 Actions
-Assassin’s Blade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage. Concealable: Roia can make a Dexterity (Sleight of Hand) check to hide this weapon on her person.
-Stiletto. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage. Deep Impact: a critical hit with this weapon does a total of 20 (2d4 + 10) piercing damage.
-Reactions
-Acrobatic Fighter. Roia can make a Dexterity (Acrobatics) check with the attack roll as the DC to take half damage from an attack on a success.
+Spear of Terael-Kael. Magical Melee or Ranged Weapon Attack: +7 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) magical piercing damage. Deep Impact: the spear does 13 (2d6 + 6) magical piercing damage on a critical.
 About
-**Manner:** sways from foot to foot
-**Shadow:** shiny steel with star shaped rust roses (0/5)
-**Equipment:** 1d4 Herbal Cures
+Rituals: find familiar, blood bond, illusory script, raven’s doom
+**Manner:** grumpy, croaking voice
+**Shadow:** glossy black with a hint of red, like a pool of blood in the moonlight (thoroughly corrupt)
+**Equipment:** —
 
-*"Sure, I am kind of tired of killing, but I'm deadly good at it!"*
-Roia was once the scout of the squad and has innumerous scars on body and face from being the first to discover (and at times, being discovered by) the enemy. Other than that, she is primarily known for her dark sense of humor.
+*"My price is blood or deeds; you decide."*
+Since Oryela was set free by Karathran, Iel has taken complete control of her body, obsessed with finding Natana's Urn and taking it to the glade where his own body sits entranced. He is less concerned with the body of the former Huldra, and will not hesitate to sacrifice it in battle — if he cannot get Oryela's hands on the Urn, she is of no use to him anyway.
 
-When Serex has his famous outbursts it is not uncommon to hear the hoarse, croaking laughter of a woman over the sound of the turmoil; later the two friends often leave the scene together – the utterly drunk Serex leaning on Roia, who has been thrown out for making other guests uncomfortable with her gallows humor. The idiot who dares suggest that they are headed for a shared bed has only himself to blame for the pain.
+Since Iel has already been thoroughly corrupted, he has nothing to lose from using the Spear of Terael-Kael (below) and the Cowl of Dorgvalg (page 190). Hence, the characters face an extremely wrinkled, shriveled old woman with bushy grey-black hair, dressed in a bright white cowl and leaning on an ornamented spear. A jet-black bat hovers nearby, actually Iel's fiendish familiar, Malek. Malek will likely attempt to deliver larvae boil for Iel to weaken an opponent.
+
+![Battle-Trained Jakaar=type:character](65fadd36f4ac8f15a1709e76)

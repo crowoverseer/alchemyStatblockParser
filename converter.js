@@ -1114,7 +1114,7 @@ parseAbilities(); // should be last
 finalFill();
 
 if (insertIntoUniverse) {
-  require("./insertIntoUniverse")(npc, universeId, moduleId);
+  require("./insertIntoUniverse").insertIntoUniverse(npc, universeId, moduleId);
 } else {
   const result = JSON.stringify(npc, null, 2);
   console.log(result);

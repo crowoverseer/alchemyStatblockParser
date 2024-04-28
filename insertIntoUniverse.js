@@ -25,6 +25,9 @@ const copyNewCharacter = async (universeId, moduleId) => {
 };
 
 const addResourse = async (characterId, moduleId) => {
+  if (!characterId) {
+    throw new Error("Empty character ID to add resourse");
+  }
   // console.log("Adding the chacater to module");
   const addResourceQuery = {
     operationName: "AddResourceToMarketplaceItem",
@@ -109,4 +112,10 @@ const insertIntoUniverse = async (npc, universeId, moduleId) => {
   console.log(`\n![${npc.name}=type:character](${characterId})`); //![ButtonName=type:character](655dd6bb3946a2aea55ea39c)
 };
 
-module.exports = insertIntoUniverse;
+module.exports = {
+  insertIntoUniverse,
+  copyNewCharacter,
+  addResourse,
+  fillTheChatacter,
+  addAction,
+};
